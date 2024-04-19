@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* font-family: 'Playfair Display', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+@import 'https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Playfair+Display:400,400i,700,700i,900,900i';
+
+
+body {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    
+}
+
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbar ul li {
+    list-style-type: none;
+    padding: 15px;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    line-height: 70px;
+}
+
+.homee {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 250px;
+}
+
+.image_box{
+    /* border: 1px solid white; */
+    border-width: 4px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 300px;
+    box-shadow: 5px 5px 10px rgb(255, 136, 0);
+    background-color: rgb(255, 136, 0);
+}
+
+
+.image1 {
+    height: 300px;
+    width: 300px;
+}
