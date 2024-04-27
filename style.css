@@ -32,6 +32,14 @@ body {
 
 /* nav bar section */
 
+.navbar{
+    /* background-color: rgba(255, 255, 255, 0.362); */
+    /* position: fixed; */
+    padding-bottom: 20px ;
+    margin: 0px 30px;
+    border-bottom: 2px solid white ;
+}
+
 .navbar ul {
     display: flex;
     justify-content: right;
@@ -53,9 +61,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 30px; 
-    padding: 120px 120px;
-    border-top: 2px solid rgb(255, 255, 255);
+    margin: 30px 30px 30px 30px ; 
+    padding: 120px 120px ;
+    /* background-color: black; */
+    /* border-top: 2px solid rgb(255, 255, 255); */
 }
 
 .lineplot {
@@ -132,16 +141,10 @@ body {
     margin: 10px;
     padding: 10px 300px 100px 10px;
     border-radius: 20px;
+    opacity: 0.7;
     /* border: 2px solid red; */
     background-color: #edbebe2f;
 }
-
-/* .text_box{
-    border-top: 3px solid white;
-    border-left: 3px solid white;
-    border-radius: 50px 0px 0px;
-    padding-left: 00px;
-} */
 
 .button1 {
     position: absolute;
@@ -153,7 +156,12 @@ body {
     padding: 15px 32px;
     color: white;
     border-radius: 30px;
-    box-shadow: 0 0 40px 10px #edbebe7d;
+    transition: 1s all;
+    /* box-shadow: 0 0 40px 10px #edbebe7d; */
+}
+
+.button1:hover{
+    box-shadow: 0 0 20px#edbebe7d;
 }
 
 .image_box {
@@ -178,6 +186,71 @@ body {
     width: 400px;
 }
 
+/* projectss sections */
 
+.projectss{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 100px 30px 0px;
+    padding: 160px 0px 151px 250px;       
+}
 
+.heading1{
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    font-size: 40px;
+}
 
+.design4{
+    position: absolute;
+    top: 424px;
+    left: -271px;
+    transform: rotate(90deg);
+}
+
+.card1{
+    background-color: #edbebe7d;
+    padding: 100px 300px 100px 100px;
+    border-radius:  2px 60px;
+}
+
+.card2{
+    background-color: #edbebe7d;
+    padding: 10px;
+    border-radius: 12px;
+    
+}
+.eeee{
+    height: 200px;
+    width: 200px;
+    border-radius: 12px;
+}
+
+.card3{
+    background-color: #edbebe7d;
+    padding: 100px;
+    border-radius: 12px;
+}
+
+.card4{
+    background-color: #edbebe7d;
+    padding: 100px;
+    border-radius: 12px;
+}
+
+.card5{
+    background-color: #edbebe7d;
+    padding: 100px;
+    border-radius: 12px;
+}
+
+.card6{
+    background-color: #edbebe7d;
+    padding: 100px 500px 100px 100px;
+    border-radius:  60px 2px;
+}
