@@ -40,6 +40,7 @@ body {
     /* position: fixed; */
     padding-bottom: 20px ;
     margin: 0px 30px;
+    
     /* border-bottom: 2px solid white ; */
 }
 
@@ -251,6 +252,33 @@ body {
     opacity: .4;
 }
 
+.btn-1{
+    position:absolute;
+    display: flex;
+    padding: 30px;
+    bottom: 50px;
+    left: 131px;
+    /* background-color: red; */
+}
+
+.g1{
+    font-style: italic;
+    font-size:22px;
+    padding-top: 16px ;
+    padding-right: 30px;
+}
+
+.g9{
+    height: 60px;
+    width: 60px;
+    /* padding-top: 4px; */
+    transition: 1s all;
+    border-radius: 50%;
+}
+
+.g9:hover{
+    box-shadow: 0 0 40px 10px #edbebe7d;
+}
 
 .card1{
     background-color: #705858;
@@ -264,6 +292,7 @@ body {
     border-radius: 12px;
     
 }
+
 .eeee{
     height: 200px;
     width: 200px;
@@ -308,16 +337,9 @@ body {
     margin: 30px;
 }
 
-.heading2{
-    position: absolute;
-    top: 31px;
-    left: 60px;
-    font-size: 40px;
-}
-
 .text{
     position: absolute;
-    top: 535px;
+    top: 455px;
     left: 120px;
     font-size: 20px;
     border-top: 3px solid;
@@ -349,8 +371,15 @@ body {
     border-top: 2px solid;
     border-left: 2px solid;
     border-radius: 170px 0px 0px 0px;
-    box-shadow: 0 0 30px 7px #cfdb2a8f ;
+    box-shadow: 0 0 30px 7px #e8e9e38f ;
     z-index: -2;
+}
+
+.design10{
+    position: absolute;
+    top: 457px;
+    left: 506px;
+    opacity: .6;
 }
 
 /* .s1{
@@ -375,4 +404,47 @@ body {
     width: 200px;
     border-radius: 50%;
     box-shadow: 0 0 30px 7px #cfdb2a8f 
+}
+
+.suit3{
+    /* position: absolute; */
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 30px 1px #cfd7e0 ;
+}
+
+.suit4{
+    /* position: absolute; */
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 30px 1px #f4a931 ;
+}
+
+.suit5{
+    /* position: absolute; */
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 30px 7px #d4d4cde8 
+}
+
+/* about me section */
+
+#aboutmee{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 26px;
+    margin: 30px;
+    padding: 30px;
+}
+
+.about_box1{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 30px;
 }
