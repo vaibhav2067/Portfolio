@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.navbar{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 10px 30px;
+    font-size: 23px;
+    font-family: "Codystar", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-style: italic;
+}
+
+.design1{
+    position: absolute;
+    padding: 200px;
+    border-top: 3px solid;
+    border-left: 3px solid;
+    top: 200px;
+    left: 35%;
+    border-radius: 50% ;
+    transform: rotate(-30deg);
+}
+
+.design2{
+    position: absolute;
+    padding: 210px;
+    border-top: 3px solid;
+    border-left: 3px solid;
+    top: 191px;
+    left: 34.3%;
+    border-radius: 50% ;
+    transform: rotate(-50deg);
+}
+
+.design3{
+    position: absolute;
+    padding: 10px;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    top: 390px;
+    left: 47.3%;
+    border-radius: 50% ;
+    transform: rotate(160deg);
+}
+
+.design4{
+    position: absolute;
+    padding: 100px 250px;
+    background-color: rgba(0, 234, 255, 0.407);
+    top: 370px;
+    right: 216px;
+    border-radius: 62px;
+}
