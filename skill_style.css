@@ -1,66 +1,293 @@
 @import url('https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&display=swap');
 
-
 *{
     margin: 0px;
     padding: 0px;
+    user-select: none;
 }
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(145, 58, 58);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
+
 
 body{
     background-color: black;
     color: white;
 }
 
-.navbar{
+/* .hero{
     position: relative;
-    display: flex;
-    justify-content: center;
-    padding: 10px 30px;
-    font-size: 23px;
-    font-family: "Codystar", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-style: italic;
+    z-index: 999;
+    background-color: red;
+    max-width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+} */
+
+.mid{
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 1px white;
+}
+
+.designA{
+    position: absolute;
+    top: 280px;
+}
+
+.mid1{
+    padding: 10px;
+}
+
+.hero1{
+    position: absolute;
+    top: 110px;
+    left: 165px;
+}
+
+.hoverrr{
+    position: relative;
+    border-radius: 50%;
+}
+
+.text1{
+    position: absolute;
+    padding: 5px;
+    top: -30px;
+    left: 110px;
+    width: 110px;
+    /* color: black; */
+    /* display: none; */
+    border-top: 1px solid rgb(0, 217, 255);
+    border-right: 1px solid rgb(0, 217, 255);
+    border-radius: 0px 10px ;
+    font-size: 12px;
+}
+
+/* .hoverrr:hover .text1{
+    display: block;
+    color: rgb(255, 255, 255);
+} */
+
+.skill1{
+    width: 100px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid rgb(0, 217, 255);
+    border-radius: 50%;
+    transition: 1s all;
+}
+
+.skill1:hover{
+    box-shadow: 0 0 10px 2px rgb(0, 217, 255);
 }
 
 .design1{
     position: absolute;
-    padding: 200px;
-    border-top: 3px solid;
-    border-left: 3px solid;
-    top: 200px;
-    left: 35%;
-    border-radius: 50% ;
-    transform: rotate(-30deg);
+    top: 140px;
+    left: 276px;
+    transform: rotate(0deg);
 }
 
 .design2{
     position: absolute;
-    padding: 210px;
-    border-top: 3px solid;
-    border-left: 3px solid;
-    top: 191px;
-    left: 34.3%;
-    border-radius: 50% ;
-    transform: rotate(-50deg);
+    top: 249px;
+    left: 396px;
+    transform: rotate(90deg);
 }
 
 .design3{
     position: absolute;
-    padding: 10px;
-    border-top: 1px solid;
-    border-left: 1px solid;
-    top: 390px;
-    left: 47.3%;
-    border-radius: 50% ;
-    transform: rotate(160deg);
+    top: 332px;
+    left: 480px;
+    transform: rotate(0deg);
 }
 
 .design4{
     position: absolute;
-    padding: 100px 250px;
-    background-color: rgba(0, 234, 255, 0.407);
+    top: 384px;
+    left: 320px;
+    transform: rotate(0deg);
+}
+
+.hero2{
+    position: absolute;
+    top: 354px;
+    left: 208px;
+}
+
+/* .hoverrr:hover .text2{
+    display: block;
+    color: rgb(255, 255, 255);
+} */
+
+.design5{
+    position: absolute;
+    top: 448px;
+    left: 450px;
+    transform: rotate(0deg);
+}
+
+.design6{
+    position: absolute;
+    top: 520px;
+    left: 402px;
+    transform: rotate(90deg);
+}
+
+.hero3{
+    position: absolute;
+    top: 594px;
+    left: 396px;
+}
+
+.text2{
+    position: absolute;
+    padding: 5px;
+    top: 90px;
+    left: 120px;
+    width: 110px;
+    /* color: black; */
+    /* display: none; */
+    border-top: 1px solid rgb(0, 217, 255);
+    border-right: 1px solid rgb(0, 217, 255);
+    border-radius: 0px 10px ;
+    font-size: 12px;
+}
+
+.design7{
+    position: absolute;
+    top: 190px;
+    left: 665px;
+    transform: rotate(90deg);
+}
+
+.design8{
+    position: absolute;
+    top: 70px;
+    right: 582px;
+    transform: rotate(0deg);
+}
+
+.hero4{
+    position: absolute;
+    top: 42px;
+    right: 470px;
+}
+
+.design9{
+    position: absolute;
+    top: 150px;
+    right: 320px;
+    transform: rotate(0deg);
+}
+
+.design10{
+    position: absolute;
+    top: 240px;
+    left: 754px;
+    transform: rotate(90deg);
+}
+
+.hero5{
+    position: absolute;
+    top: 120px;
+    right: 208px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero6{
+    position: absolute;
+    top: 450px;
+    right: 300px;
+}
+
+.skill2{
+    width: 180px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid rgb(0, 217, 255);
+    border-radius: 50%;
+    transition: 1s all;
+}
+
+.skill2:hover{
+    box-shadow: 0 0 10px 2px rgb(250, 250, 250);
+}
+
+.hero7{
+    position: absolute;
     top: 370px;
-    right: 216px;
-    border-radius: 62px;
+    right: 360px;
+}
+
+.skill3{
+    width: 50px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid rgb(0, 217, 255);
+    border-radius: 50%;
+    transition: 1s all;
+}
+
+.skill3:hover{
+    box-shadow: 0 0 10px 2px rgb(250, 250, 250);
+}
+
+.hero8{
+    position: absolute;
+    top: 660px;
+    right: 360px;
+}
+
+.hero9{
+    position: absolute;
+    top: 510px;
+    right: 220px;
+}
+
+.hero10{
+    position: absolute;
+    top: 410px;
+    right: 257px;
+}
+
+.hero11{
+    position: absolute;
+    top: 620px;
+    right: 257px;
 }
