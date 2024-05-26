@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -164,13 +168,53 @@ body {
     border: none;
     padding: 15px 32px;
     color: white;
-    border-radius: 30px;
+    border-radius: 20px;
     transition: 1s all;
-    /* box-shadow: 0 0 40px 10px #edbebe7d; */
 }
 
 .button1:hover {
     box-shadow: 0 0 40px 10px #edbebe7d;
+}
+
+.text_box{
+    position: absolute;
+    left: 253px;
+    padding: 10px;
+    bottom: 26px;
+    width: 233px;
+    border-radius: 20px;
+    background-color: #edbebe13;
+    
+}
+
+.link1{
+    width: 40px;
+    margin: 2px;
+    padding: 4px;
+    box-shadow: 0 0 10px 5px #edbebe7d;
+    border-radius: 10px;
+    opacity: 0;
+    transition: 1s all;
+}
+
+.link1:hover{
+    opacity: 1;
+}
+
+.line1{
+    position: absolute;
+    top: 24px;
+    left: 60px;
+    color: #edbebe85;
+    z-index: -2;
+}
+
+.line2{
+    position: absolute;
+    top: 54px;
+    left: 20px;
+    transform: rotate(90deg);
+    color: #edbebed2;
 }
 
 .image_box {
@@ -187,6 +231,7 @@ body {
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    border-radius: 50%;
 }
 
 .image_box:hover .image_box_inner {
@@ -585,9 +630,43 @@ body {
 
 .text_box3 {
     margin-left: 50%;
-    margin-top: 245px;
+    margin-top: 80px;
     margin-bottom: 0px;
-    padding: 20px 300px 350px 300px;
+    padding: 20px 100px 20px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    gap: 30px;
     background-color: #edbebe7d;
-    /* border-radius: 30px 3px ; */
+    border-radius: 20px;
+}
+
+.text_box4{
+    border: none;
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0px 18px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}
+
+.text_box5{
+    border: none;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 0px 18px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}
+
+.btn-2{
+    margin-top: 80px;
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    background:linear-gradient(45deg, #d78585, rgb(255, 255, 0));
 }
