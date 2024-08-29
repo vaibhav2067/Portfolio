@@ -360,10 +360,23 @@ body {
     border-radius: 2px 60px;
 }
 
+.card6 {
+    display: flex;
+    background-color: #6E656E;
+    padding: 10px 10px 10px 10px;
+    border-radius: 60px 2px;
+}
+
 .ffff {
     height: 200px;
     width: 200px;
     border-radius: 2px 50px;
+}
+
+.gggg{
+    height: 200px;
+    width: 200px;
+    border-radius: 50px 2px;
 }
 
 .text1 {
@@ -401,21 +414,15 @@ body {
 }
 
 .card4 {
-    background-color: #705858;
+    background-color: #73C4D3;
     padding: 10px;
     border-radius: 12px;
 }
 
 .card5 {
-    background-color: #705858;
+    background-color: #8373D3;
     padding: 10px;
     border-radius: 12px;
-}
-
-.card6 {
-    background-color: #705858;
-    padding: 100px 500px 100px 100px;
-    border-radius: 60px 2px;
 }
 
 /* skills section */
