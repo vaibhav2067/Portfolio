@@ -38,6 +38,16 @@ body{
     border-radius: 0px 0px 0px 10px;
 }
 
+.box2{
+    margin: 60px;
+    /* padding: 80px; */
+}
+.e1{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
 .box1{
     margin: 60px;
     padding: 80px;
